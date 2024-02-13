@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlet>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <servlet-class>com.example.FeedbackServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <url-pattern>/submit-feedback</url-pattern>
+</servlet-mapping>
